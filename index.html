@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <title>Frontend Mentor | Order summary card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section
+        class="flex items-center justify-center min-h-screen bg-mobile md:bg-desktop bg-no-repeat bg-contain bg-main mx-2 md:mx-0"
+        aria-label="Order summary section"
+      >
+        <div
+          class="flex items-center flex-col bg-white rounded-[15px] overflow-hidden text-center max-w-[450px] shadow-xl"
+          aria-label="Order summary details"
+        >
+          <img src="/images/illustration-hero.svg" alt="Illustration hero" />
+
+          <div class="mx-4 md:mx-9 my-8">
+            <h1
+              class="font-extrabold text-lg md:text-[1.8rem] text-heading mt-2"
+              tabindex="0"
+            >
+              Order Summary
+            </h1>
+            <p
+              class="px-4 md:px-[2rem] my-5 text-para text-base md:text-[17px]"
+            >
+              You can now listen to millions of songs, audiobooks, and podcasts
+              on any device anywhere you like!
+            </p>
+
+            <div
+              class="flex items-center bg-card px-3 py-[1.64rem] mx-3 md:mx-0 my-3 rounded-[15px]"
+              aria-label="Order summary details"
+            >
+              <img src="/images/icon-music.svg" alt="Icon music" />
+              <div class="ml-3 md:ml-5">
+                <p class="text-heading font-extrabold">Annual Plan</p>
+                <p class="text-para">$59.99/year</p>
+              </div>
+
+              <a
+                href="#"
+                class="text-link font-semibold underline ml-auto text-[14px]"
+                tabindex="0"
+              >
+                Change
+              </a>
+            </div>
+
+            <button
+              class="mt-5 bg-button text-white px-4 md:px-[6.2rem] py-3 md:py-[0.8rem] rounded-[10px] shadow-2xl w-full md:w-auto"
+              aria-label="Proceed to payment button"
+            >
+              Proceed to Payment
+            </button>
+
+            <button
+              class="mt-2 md:mt-5 bg-transparent text-para font-bold w-full py-3 md:w-auto rounded-[10px]"
+              aria-label="Cancel order button"
+            >
+              Cancel Order
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
